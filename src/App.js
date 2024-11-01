@@ -147,9 +147,9 @@ const App = () => {
           <Button label="C" onClick={handleOnClear} />
         </Row>
         <Row>
-          <Button label="7" onClick={() => handleAddNumber('4')} />
-          <Button label="8" onClick={() => handleAddNumber('5')} />
-          <Button label="9" onClick={() => handleAddNumber('6')} />
+          <Button label="7" onClick={() => handleAddNumber('7')} />
+          <Button label="8" onClick={() => handleAddNumber('8')} />
+          <Button label="9" onClick={() => handleAddNumber('9')} />
           <Button label="÷" onClick={handleDivNumber} />
         </Row>
         <Row>
