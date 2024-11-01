@@ -10,23 +10,26 @@ export const Container = styled.div`
     justify-content: center;
 `
 
-
 export const Content = styled.div`
-    background-color: #FFFFFF;
-    width: 50%;
+    background-color: #FFFF;
+    min-width: 230px;
+
 `
 
+
 export const Row = styled.div`
-    display:flex;
+
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 `
 
+
 export const Column = styled.div`
-    display:flex;
+
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 `
-
